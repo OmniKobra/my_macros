@@ -39,7 +39,7 @@ fn main() {
     ex!();
     let square_1 = square!(1);
     let least = min!(5; 3, 4, 7, 19, 2);
-    make_var!(foo);
+    make_var!(foo, i32, 0);
     println!("{}", foo);
     let o: make_option!(i32) = Some(8);
     let sum = sum!(1, 2, 3);
